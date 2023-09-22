@@ -127,7 +127,7 @@ h4 {
 
 p {
   font-size: 0.875em;
-  line-height: 1.285em;
+  line-height: 1.285;
 }
 
 img {
@@ -211,7 +211,8 @@ footer .content-wrapper {
   margin: 50px 0 20px 0;
 }
 
-footer .contact {
+footer .contact,
+footer .social {
   margin-bottom: 50px;
 }
 
@@ -230,7 +231,7 @@ footer .social-icons p {
 }
 
 footer .copyright {
-  margin-top: 20px;
+  margin: 20px 0;
 }
 
 /* -------------------- Mobile Styles - Homepage -------------------- */
@@ -248,7 +249,7 @@ footer .copyright {
 .hero-area h1 {
     font-family: 'Poppins', 'Helvetica', 'Arial', sans-serif;
     font-size: 2.25em;
-    line-height: 1.2em;
+    line-height: 1.2;
     font-weight: 500;
   }
 
@@ -331,7 +332,7 @@ input[type=button] {
 
 .reviews h2 {
   margin-bottom: 40px;
-  line-height: 1em;
+  line-height: 1;
 }
 
 .reviews h3 {
@@ -374,7 +375,7 @@ input[type=button] {
 
 .faq h2 {
   margin: 40px 0;
-  line-height: 1em;
+  line-height: 1;
 }
 
 .faq-content {
@@ -382,7 +383,7 @@ input[type=button] {
 }
 
 .faq-content h4 {
-  line-height: 1.33em ;
+  line-height: 1.33 ;
 }
 
 /* ==========================================================================
@@ -477,12 +478,12 @@ input[type=button] {
   /* General Styles */
   h2 {
     font-size: 2.25em;
-    line-height: 1.33em;
+    line-height: 1.33;
   }
 
   h3 {
     font-size: 1.5em;
-    line-height: 1.33em;
+    line-height: 1.25;
   }
   
   .content-wrapper {
@@ -524,7 +525,7 @@ input[type=button] {
 
   .hero-area h1 {
     font-size: 3em;
-    line-height: 1em;
+    line-height: 1;
   }
 
   /* Aside */
@@ -580,7 +581,7 @@ input[type=button] {
   /* Footer */
   footer .content-wrapper {
     width: 65%;
-    margin: 100px 0;
+    margin-top: 100px;
   }
 
   .footer-content {
@@ -598,7 +599,7 @@ input[type=button] {
   }
 
   footer p {
-    line-height: 1.33em;
+    line-height: 1.29;
   }
 
   footer .copyright {
@@ -653,12 +654,26 @@ input[type=button] {
   .faq h4,
   .faq p {
     font-size: 0.875em;
-    line-height: 1.2em;
+    line-height: 1.13;
   }
 }
 
 @media only screen and (min-width: 1200px) {
   /* General Styles */
+  h2 {
+    font-size: 2.25em;
+  }
+
+  h3,
+  h4 {
+    font-size: 1.875em;
+  }
+
+  p {
+    font-size: 1.125em;
+    line-height: 1.33;
+  }
+  
   .content-wrapper {
     max-width: 960px;
   }
@@ -671,6 +686,7 @@ input[type=button] {
   /* Hero */
   .hero-area h1 {
     width: 80%;
+    font-size: 3.75em;
   }
 
   /* Aside */
@@ -693,11 +709,19 @@ input[type=button] {
   }
 
   /* Reviews */
+  .reviews h2 {
+    margin: 0 0 50px 0;
+  }
+
   .reviews article div {
     width: 42%;
   }
 
   /* ====================== About Page - Desktop ============ */
+  .mission h2 {
+    font-size: 3em;
+  }
+  
   .mission h2,
   .contact-section .content-wrapper h2 {
     width: 95%;
@@ -706,6 +730,12 @@ input[type=button] {
   /* ===================== FAQ Page - Desktop ================== */
   .faq h2 {
     width: 100%;
+    font-size: 3em;
+  }
+
+  .faq h4 {
+    font-size: 1.125em;
+    line-height: 1;
   }
 }
 
