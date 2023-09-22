@@ -733,10 +733,12 @@ input[type=button] {
     font-size: 3em;
   }
 
-  .faq h4 {
+  .faq h4,
+  .faq p {
     font-size: 1.125em;
     line-height: 1;
   }
+  
 }
 
 /* ==========================================================================
