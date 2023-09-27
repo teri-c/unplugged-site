@@ -631,6 +631,10 @@ input[type=button] {
     padding-top: 20px;
   }
 
+  .map figure {
+    padding-bottom: 45.57%;
+  }
+
   .mission h2 {
     margin-bottom: 20px;
   }
@@ -738,6 +742,10 @@ input[type=button] {
     font-size: 3em;
   }
   
+  .map figure {
+    padding-bottom: 37.5%;
+  }
+
   .mission h2,
   .contact-section .content-wrapper h2 {
     width: 95%;
